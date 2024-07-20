@@ -1,6 +1,7 @@
 function firstWord(s) {
   // your code here
-	const spaceIndex = s.indexOf(' ');
+	s = s.trim();
+  const spaceIndex = s.indexOf(' ');
 	if (spaceIndex === -1) {
     return s;
   }
